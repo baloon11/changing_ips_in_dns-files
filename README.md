@@ -16,7 +16,7 @@ For example:
 For example: 
 
 		example1.com.db  
-		example1.com.db  
+		example2.com.db  
 
 2. Change `replace_list` In the head of the script.    
 3. In the directory `new` will create new dns-files with new ips.   
