@@ -21,3 +21,8 @@ For example:
 2. Change `replace_list` In the head of the script.    
 3. In the directory `new` will create new dns-files with new ips.   
 
+##### Usage
+		python ip_replace.py
+
+It works without any additional packages dependencies.
+
