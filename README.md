@@ -12,14 +12,15 @@ For example:
             ]
 
 ##### How it works
-1. Put in the directory `old` dns-files (with .db)  
+1. Create empty directories `old`  and `new` in the directory with a script.  
+2. Put in the directory `old` dns-files (with .db)  
 For example: 
 
 		example1.com.db  
 		example2.com.db  
 
-2. Change `replace_list` In the head of the script.    
-3. In the directory `new` will create new dns-files with new ips.   
+3. Change `replace_list` In the head of the script.    
+4. In the directory `new` will create new dns-files with new ips.   
 
 ##### Usage
 		python ip_replace.py
