@@ -3,6 +3,7 @@ The script `ip_replace.py` changes ip (or high bytes in ip) in the set of dns fi
 
 In the head of the script you need to change this data.  
 For example:   
+
 	replace_list=[
 			# domain	old high bytes  new high bytes
 		        ['example1.com','10.10.10.',	'10.10.11.'],
@@ -13,6 +14,7 @@ For example:
 ##### How it works
 1. Put in the directory `old` dns-files (with .db)  
 For example: 
+
 	example1.com.db
 	example1.com.db
 
