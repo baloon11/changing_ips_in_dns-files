@@ -20,7 +20,8 @@ For example:
 		example2.com.db  
 
 3. Change `replace_list` In the head of the script.    
-4. In the directory `new` will create new dns-files with new ips.   
+4. Run `python ip_replace.py`
+5. In the directory `new` will create new dns-files with new ips.   
 
 ##### Usage
 		python ip_replace.py
